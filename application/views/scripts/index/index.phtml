@@ -1,0 +1,18 @@
+<style>
+</style>
+<h1>Hello ZHOPA</h1>
+<ul>
+<?php /*
+$db_server = 'assistant2\assistant2';
+$db_database = 'kste_zend';
+$db_user = 'kste';
+$db_passwd = '4esZXdr5';
+ 
+$db = new PDO("sqlsrv:server=$db_server;database=$db_database;", $db_user, $db_passwd);*/
+
+//phpinfo();
+
+$arr = PDO::getAvailableDrivers();
+foreach ($arr as $x) echo "<li>$x</li>";
+?>
+</ul>

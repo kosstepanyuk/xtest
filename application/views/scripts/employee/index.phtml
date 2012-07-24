@@ -1,0 +1,8 @@
+<table class="table">
+<?php foreach ($this->entries as $entry) { ?>
+<tr>
+	<td><?php echo $this->escape($entry->firstName) ?></td>	
+	<td><?php echo $this->escape($entry->lastName) ?></td>
+</tr>		
+	<?php } ?>
+</table>
